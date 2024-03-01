@@ -49,5 +49,8 @@ void NetworkInterface::send_datagram(const InternetDatagram& dgram, const Addres
 {
 	datagrams_.push({move(next_hop), move(dgram)});
 }
+```
 
+#### Qt中undefined reference to ....
+1. 检查头文件是否有CMake依赖
 
